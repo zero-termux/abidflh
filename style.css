@@ -1,0 +1,503 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(133, 1, 28)!important;
+}
+
+.container {
+  position: relative;
+}
+
+nav {
+  display: none!important;
+}
+
+#nav {
+  width: 100%;
+  position: relative;
+  top: 15px;
+}
+
+.navbar1, .navbar2 {
+  color: white;
+}
+
+.navbar1 i {
+  background-color: rgba( 0, 0, 0, 0.4);
+  padding: 8px 12px;
+  border-radius: 50%;
+  position: absolute!important;
+  left: 2%!important;
+  top: 2%!important;
+  z-index: 999;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar1 i:hover {
+  background-color: rgba( 215, 215, 215, 0.3);
+}
+
+.navbar2 i {
+  background-color: rgba( 0, 0, 0, 0.4);
+  padding: 8px 12px;
+  border-radius: 50%;
+  position: absolute!important;
+  right: 2%!important;
+  top: 2%!important;
+  z-index: 999;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar2 i:hover {
+  background-color: rgba( 215, 215, 215, 0.3);
+}
+
+#nav h1 {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 8px;
+  opacity: 0.9;
+  text-shadow: 0px 3px 5px #150112;
+}
+
+.judul {
+  position: relative;
+  margin-top: 80px;
+}
+
+.judul h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 55px;
+  color: white;
+  position: relative;
+}
+
+.judul p {
+  color: #d0d0d0;
+  line-height: 0.5;
+  font-size: 15px;
+}
+
+.judul h2 {
+  color: white;
+}
+
+
+.judul button {
+  border: 1px solid #F3F307;
+  background-color: rgb(133, 1, 28)!important;
+  box-shadow: 0px 2px 5px #150112;
+  font-weight: 480;
+  color: #F3F307;
+  transition: 0.3s;
+}
+
+.judul button:hover {
+  box-shadow: none;
+  background-color: #F3F307!important;
+  color: rgb(133, 1, 28);
+}
+
+.judul button a {
+  text-decoration: none;
+  color: #F3F307;
+}
+
+.judul button a:hover {
+  color: rgb(133, 1, 28);
+}
+
+.judul a {
+  text-decoration: none;
+}
+
+#about {
+  position: relative;
+  margin-top: 80px;
+  color: white;
+}
+
+#about h2 {
+  font-size: 1.8rem;
+  text-shadow: 2px 3px #150112;
+  font-weight: 700;
+  border-bottom: 1px solid #F3F307;
+}
+
+#about img {
+  width: 290px;
+  margin-bottom: 30px!important;
+  margin-top: 15px!important;
+  border-radius: 20px;
+  box-shadow: 4px 5px 5px #F3F307;
+}
+
+#about p {
+  padding: 8px;
+}
+
+#about .skill {
+  width: 295px;
+  height: 220px;
+  background-color: rgba( 0, 0, 0, 0.4);
+  border-radius: 20px;
+  border: 1px solid #F3F307;
+  margin-bottom: 30px!important;
+  margin-top: 35px!important;
+  color: white;
+  position: relative;
+  font-size: 70px;
+  padding: 5px 10px;
+}
+
+.skill i {
+  position: relative;
+}
+
+#project {
+  position: relative;
+  color: white;
+}
+
+#project h2 {
+  font-size: 1.8rem;
+  text-shadow: 2px 3px #150112;
+  font-weight: 700;
+  border-bottom: 1px solid #F3F307;
+  margin-bottom: 40px;
+}
+
+#project .card {
+  background-color: rgba( 0, 0, 0, 0.4);
+  color: white;
+  border: 1px solid #F3F307;
+}
+
+.card a {
+  border: 1px solid #F3F307;
+  background-color: rgb(133, 1, 28)!important;
+  box-shadow: 0px 2px 5px #150112;
+  font-weight: 480;
+  color: #F3F307;
+  transition: 0.3s;
+}
+
+.card a:hover {
+  box-shadow: none;
+  background-color: #F3F307!important;
+  color: rgb(133, 1, 28);
+}
+
+#project #btn {
+  border: 1px solid #F3F307;
+  background-color: rgb(133, 1, 28)!important;
+  box-shadow: 0px 2px 5px #150112;
+  font-weight: 480;
+  color: #F3F307;
+  transition: 0.3s;
+  width: 100%;
+}
+
+#project #btn:hover {
+  box-shadow: none;
+  background-color: #F3F307!important;
+  color: rgb(133, 1, 28);
+}
+
+.ats {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  bottom: 20px;
+  right: 12px;
+  background-color: rgba( 0, 0, 0, 0.4);
+  padding: 0px 9px;
+  padding-top: 2px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: .3s;
+}
+
+.ats i {
+  color: #F3F307;
+  font-size: 35px;
+}
+
+.ats:hover {
+  opacity: 1;
+  border: 1px dashed #F3F307;
+}
+
+#toggle-cards-btn {
+  border: 1px solid #F3F307;
+  background-color: rgb(133, 1, 28)!important;
+  box-shadow: 0px 2px 5px #150112;
+  font-weight: 480;
+  color: #F3F307;
+  transition: 0.3s;
+  width: 60%;
+}
+
+#toggle-cards-btn:hover {
+  box-shadow: none;
+  background-color: #F3F307!important;
+  color: rgb(133, 1, 28);
+}
+
+
+.modal-content {
+  background-color: rgb(0, 0, 0)!important;
+  color: #F3F307!important;
+  border: 1px solid #F3F307!important;
+}
+
+.modal-content .btn-primary {
+  border: 1px solid #F3F307;
+  background-color: rgb(133, 1, 28)!important;
+  box-shadow: 0px 2px 5px #150112;
+  font-weight: 480;
+  color: #F3F307;
+  transition: 0.3s;
+  width: 60%;
+}
+
+.modal-content .btn-secondary {
+  border: 1px solid #F3F307;
+  color: #F3F307;
+  background-color: black!important;
+}
+
+.modal-footer .btn-secondary:hover {
+  border: none;
+  background-color: #F3F307!important;
+  color: #150112;
+}
+
+.modal-content .btn-primary:hover {
+  box-shadow: none;
+  background-color: #F3F307!important;
+  color: rgb(133, 1, 28);
+}
+
+form input {
+  background-color: rgba(0, 0, 0, 0.4)!important;
+  color: white!important;
+}
+
+form textarea {
+  background-color: rgba(0, 0, 0, 0.4)!important;
+  color: white!important;
+}
+
+#follow h1 {
+  text-shadow: 2px 3px #150112;
+  font-weight: 700;
+  color: #F3F307;
+  margin-top: 40px;
+  line-height: 0.7;
+}
+
+#follow p {
+  color: #b5b5b5;
+  font-size: 12px;
+}
+
+#follow .bks {
+  position: relative;
+  left: 10px;
+}
+
+#follow a {
+  text-decoration: none;
+  color: #F3F307;
+  font-size: 1.6rem;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#follow a:hover {
+  color: white;
+  opacity: 0.7;
+}
+
+footer p {
+  color: #b5b5b5;
+  font-size: 12px;
+}
+
+#form {
+  display: none;
+}
+
+.offcanvas {
+  width: 65%!important;
+  background-color: rgba(0, 0, 0, 0.8)!important;
+  box-shadow: 1px 0px 2px #F3F307;
+  color: white!important;
+}
+
+.offcanvas p {
+  color: #b5b5b5;
+  font-size: 15px;
+}
+
+.offcanvas li {
+  list-style: none;
+}
+
+.offcanvas a {
+  text-decoration: none;
+  font-weight: 420;
+  margin-bottom: 18px!important;
+  margin-left: -8px!important;
+  display: inline-block;
+  font-size: 1.1rem;
+  transition: .3s;
+  border-bottom: 1px solid #b5b5b5;
+  padding-bottom: 8px;
+}
+
+.offcanvas a:hover {
+  opacity: 1;
+}
+
+.list ul li a.active {
+  color: #F3F307!important;
+  }
+  
+
+.list ul li a {
+  color: white!important;
+  opacity: 0.7;
+  }
+
+@media screen and (min-width: 500px) {
+  .container {
+    width: 700px!important;
+    height: 100%;
+    border-right: 1.5px solid #F3F307;
+    border-left: 1.5px solid #F3F307;
+    position: relative;
+  }
+  
+  #nav {
+    display: none;
+  }
+  
+  nav {
+    display: block!important;
+    position: fixed!important;
+    width: 100%;
+    height: 65px!important;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    background-color: rgb(133, 1, 28)!important;
+  }
+  
+  nav .list {
+    position: relative;
+    top: 10px;
+  }
+  
+  nav li {
+    display: inline-block!important;
+    margin-right: 15px;
+  }
+  
+  nav a {
+    text-decoration: none!important;
+    color: white!important;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 450;
+    transition: .3s;
+  }
+  
+  nav a:hover {
+    color: rgba(255,255,255,0.7);
+    opacity: 0.8;
+  }
+  
+  
+  .list ul li a.active {
+  color: #F3F307!important;
+  }
+  
+
+  .list ul li a {
+  color: white!important;
+  }
+  
+ .navbar-brand {
+  color: white!important;
+  font-size: 30px!important;
+  position: relative;
+  opacity: 0.9;
+  text-shadow: 0px 3px 5px #150112;
+  }
+  
+  .judul {
+    text-align: center;
+  }
+  
+  #about h2 {
+    text-align: center;
+  }
+  
+  #about p {
+   font-size: 1.1rem;
+ }
+ 
+ #about .skill{
+   width: 580px;
+   height: 100px;
+   padding: 0;
+ }
+ 
+ .ats {
+  display: none!important;
+}
+
+.crd {
+  display: block!important;
+}
+
+#form {
+  display: block;
+  padding: 0px 100px;
+  color: white;
+}
+
+#form h2 {
+  font-size: 1.8rem;
+  text-shadow: 2px 3px #150112;
+  font-weight: 700;
+  color: white;
+  border-bottom: 1px solid #F3F307;
+}
+
+#form .btn-primary {
+  border: 1px solid #F3F307;
+  background-color: rgb(133, 1, 28)!important;
+  box-shadow: 0px 2px 5px #150112;
+  font-weight: 480;
+  color: #F3F307;
+  transition: 0.3s;
+  width: 60%;
+}
+
+#form .btn-primary:hover {
+  box-shadow: none;
+  background-color: #F3F307!important;
+  color: rgb(133, 1, 28);
+}
+ 
+}
