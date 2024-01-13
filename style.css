@@ -354,13 +354,13 @@ footer p {
 
 .offcanvas a {
   text-decoration: none;
-  font-weight: 420;
+  font-weight: 380;
   margin-bottom: 18px!important;
   margin-left: -8px!important;
   display: inline-block;
   font-size: 1.1rem;
   transition: .3s;
-  padding-bottom: 8px;
+  padding-bottom: 5px;
 }
 
 .offcanvas a:hover {
@@ -370,8 +370,9 @@ footer p {
 .list ul li a.active {
   color: #F3F307!important;
   position: relative;
-  left: 8px;
+  left: 5px;
   font-size: 1.3rem;
+  font-weight: 420;
   }
   
 
@@ -419,7 +420,7 @@ footer p {
     color: white!important;
     font-size: 15px;
     cursor: pointer;
-    font-weight: 450;
+    font-weight: 380;
     transition: .3s;
   }
   
@@ -433,6 +434,7 @@ footer p {
   color: #F3F307!important;
   left: 0;
   font-size: 1.2rem;
+  font-weight: 420;
   }
   
 
